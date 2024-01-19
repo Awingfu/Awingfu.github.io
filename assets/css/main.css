@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #8ebebc;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -259,6 +259,13 @@ input, select, textarea {
 		}
 
 /* Row */
+
+	.projects-row {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+	}
 
 	.row {
 		display: flex;
@@ -2169,7 +2176,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #8ebebc;
 					}
 
 /* Footer */

@@ -10,13 +10,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 Credits:
 
+- [Cloudflare Setup](https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare)
 - Icons:
   - Font Awesome (fontawesome.io)
-  - This favicon was generated using the following font:
-    - Font Title: Figtree
-    - Font Author: Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree)
-    - Font Source: http://fonts.gstatic.com/s/figtree/v5/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5ewkEU4HTy.ttf
-    - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+  - Favicon (favicon.io)
 - Other
   - jQuery (jquery.com)
   - Scrollex (github.com/ajlkn/jquery.scrollex)
