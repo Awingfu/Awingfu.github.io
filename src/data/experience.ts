@@ -5,12 +5,6 @@ export interface Job {
   end: string;
   location: string;
   skills: string[];
-  // Initial + color shown in a badge until a real logo is added below.
-  badgeInitial: string;
-  badgeColor: string;
-  // Optional path to a real company logo (e.g. '/images/logos/spotify.png').
-  // Renders instead of the badge once set.
-  logoSrc?: string;
 }
 
 export interface Education {
@@ -30,8 +24,6 @@ export const jobs: Job[] = [
     end: 'Present',
     location: 'New York, NY (Remote)',
     skills: ['React.js', 'Figma'],
-    badgeInitial: 'S',
-    badgeColor: '#1DB954',
   },
   {
     company: 'Amazon',
@@ -40,8 +32,6 @@ export const jobs: Job[] = [
     end: 'Oct 2022',
     location: 'Seattle, WA',
     skills: ['AWS Step Functions', 'Amazon ECS'],
-    badgeInitial: 'a',
-    badgeColor: '#FF9900',
   },
   {
     company: 'Amazon Web Services (AWS)',
@@ -50,8 +40,6 @@ export const jobs: Job[] = [
     end: 'Jan 2022',
     location: 'Seattle, WA (Remote)',
     skills: ['Streaming Data', 'Kubernetes'],
-    badgeInitial: 'AWS',
-    badgeColor: '#232F3E',
   },
   {
     company: 'Capital One',
@@ -60,8 +48,6 @@ export const jobs: Job[] = [
     end: 'Jan 2021',
     location: 'Chicago, IL',
     skills: ['Angular', 'React.js'],
-    badgeInitial: 'C1',
-    badgeColor: '#D22630',
   },
   {
     company: 'Capital One',
@@ -70,8 +56,6 @@ export const jobs: Job[] = [
     end: 'Sep 2019',
     location: 'McLean, VA',
     skills: ['Apache Spark', 'Amazon EMR'],
-    badgeInitial: 'C1',
-    badgeColor: '#D22630',
   },
 ];
 
