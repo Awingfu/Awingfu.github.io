@@ -15,13 +15,13 @@ export const projects: Project[] = [
     href: '/web-finance-app',
   },
   {
-    title: 'Cloud Cost & Carbon Dashboard',
-    description: 'Visualizing cloud spend alongside estimated carbon impact.',
+    title: 'Climate Impact Calculator',
+    description: 'A calculator for estimating the climate impact of everyday choices.',
     comingSoon: true,
   },
   {
-    title: 'Spotify-Style Recommender',
-    description: 'A small recommendation-engine demo over a public music dataset.',
+    title: 'Android App',
+    description: 'A mobile app for Android. Details coming soon.',
     comingSoon: true,
   },
 ];
