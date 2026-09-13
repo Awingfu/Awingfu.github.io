@@ -1,0 +1,21 @@
+---
+import type { Job } from '../data/experience';
+
+interface Props {
+  job: Job;
+  align?: 'left' | 'right';
+}
+
+const { job, align = 'left' } = Astro.props;
+---
+
+<div class:list={['bg-gray-900 rounded-lg p-6 shadow-lg hover:shadow-2xl transition', align === 'right' && 'md:text-right']}>
+  <p class="text-blue-400 text-sm font-semibold mb-1">{job.start} &ndash; {job.end}</p>
+  <h4 class="text-lg font-bold">{job.role}</h4>
+  <p class="text-gray-300 mb-3">{job.company} &middot; {job.location}</p>
+  <ul class:list={['flex flex-wrap gap-2 text-xs', align === 'right' && 'md:justify-end']}>
+    {job.skills.map((skill) => (
+      <li class="bg-gray-800 text-blue-300 px-2 py-1 rounded">{skill}</li>
+    ))}
+  </ul>
+</div>
