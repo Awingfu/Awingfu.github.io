@@ -17,7 +17,7 @@ export const projects: Project[] = [
   {
     title: 'Climate Impact Calculator',
     description: 'A calculator for estimating the climate impact of everyday choices.',
-    comingSoon: true,
+    href: '/climate-impact-visualizer/',
   },
   {
     title: 'Android App',
