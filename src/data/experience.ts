@@ -23,7 +23,7 @@ export const jobs: Job[] = [
     start: 'Oct 2022',
     end: 'Present',
     location: 'New York, NY (Remote)',
-    skills: ['React.js', 'Figma'],
+    skills: ['React.js', 'Figma', 'GCP'],
   },
   {
     company: 'Amazon',
@@ -39,7 +39,7 @@ export const jobs: Job[] = [
     start: 'Jan 2021',
     end: 'Jan 2022',
     location: 'Seattle, WA (Remote)',
-    skills: ['Streaming Data', 'Kubernetes'],
+    skills: ['Streaming Data', 'Kubernetes', 'Apache Flink'],
   },
   {
     company: 'Capital One',
@@ -47,7 +47,7 @@ export const jobs: Job[] = [
     start: 'Sep 2019',
     end: 'Jan 2021',
     location: 'Chicago, IL',
-    skills: ['Angular', 'React.js'],
+    skills: ['Angular', 'React.js', 'Amazon CloudFront', 'Amazon Route 53'],
   },
   {
     company: 'Capital One',

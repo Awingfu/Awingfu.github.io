@@ -1,17 +1,72 @@
 ---
+const toolbox = ['TypeScript', 'React', 'Python', 'Java', 'SQL / dbt', 'GCP', 'AWS', 'Claude Code', 'Codex'];
 ---
 
 <!-- About Me Section -->
 <section id="about" class="py-20 bg-gray-800">
-  <div class="container mx-auto px-4 max-w-4xl">
+  <div class="container mx-auto px-4 max-w-6xl">
     <header class="text-center mb-12">
       <h2 class="text-4xl font-bold">About Me</h2>
     </header>
 
-    <img src="/images/pic08.jpg" alt="About" class="w-full rounded-lg mb-8 shadow-2xl" />
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <!-- Story -->
+      <div class="lg:col-span-2 space-y-5 text-lg text-gray-300 leading-relaxed">
+        <p>
+          I'm a full stack engineer on Spotify's Cost Engineering (FinOps) team, part of our Platform org. I build internal tools that help engineers and leaders understand what we spend on cloud infrastructure and AI tools, and the carbon emissions that come with it. That work ranges from company-wide views with guardrails for each business unit to drift tracking that shows cost leads which teams and projects are driving changes.
+        </p>
+        <p>
+          Recently, I improved our cost plugin for Backstage, attributing OpenAI and Anthropic usage to teams so engineers can see where their AI spend goes and how to optimize and set alerts on it. I've also worked on Spotify Reserved, building tools that help event organizers process event data and manage ticketing.
+        </p>
+        <p>
+          Since October 2025, I've written most of my code with Claude and Codex. I'm also interested in public service, so if you're working on a role or project that makes public services better, I'd love to hear about it.
+        </p>
+      </div>
 
-    <p class="text-lg text-gray-300 leading-relaxed">
-      I'm currently a Full Stack Engineer at Spotify, where my expertise spans front-end, back-end, and data pipeline development. My passion lies in crafting innovative tools that push the boundaries of technology.
-    </p>
+      <!-- At a glance -->
+      <aside class="bg-gray-900/60 border border-gray-700 rounded-lg p-6 space-y-6 self-start">
+        <div>
+          <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-blue-400 mb-2">
+            <i class="ri-focus-3-line"></i> Focus
+          </h3>
+          <p class="text-gray-300">Internal tools, cost visibility, AI-assisted development</p>
+        </div>
+
+        <div>
+          <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-blue-400 mb-2">
+            <i class="ri-tools-line"></i> Toolbox
+          </h3>
+          <ul class="flex flex-wrap gap-2">
+            {toolbox.map((tool) => (
+              <li class="bg-gray-700/60 text-gray-300 text-xs font-semibold px-3 py-1 rounded-full">{tool}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-blue-400 mb-2">
+            <i class="ri-government-line"></i> Open to
+          </h3>
+          <p class="text-gray-300">Public service roles and civic tech projects</p>
+          <p class="text-gray-400 text-sm mt-1">Previously cleared for TS/SCI</p>
+        </div>
+
+        <div>
+          <h3 class="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-blue-400 mb-2">
+            <i class="ri-compass-3-line"></i> Outside work
+          </h3>
+          <ul class="space-y-2 text-gray-300">
+            <li class="flex gap-2">
+              <i class="ri-plane-line text-gray-500 mt-0.5"></i>
+              <span>Travel: 40+ flights in 2026, including stints at Spotify's European offices</span>
+            </li>
+            <li class="flex gap-2">
+              <i class="ri-gamepad-line text-gray-500 mt-0.5"></i>
+              <span>Gaming: studied game design in grad school and have tinkered with Unity</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
   </div>
 </section>
